@@ -23,6 +23,18 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "c2ba0bea-e48e-4559-947d-9dc8a2041aba"
+      }
+    },
+    "owner": "maganga"
   }
 }
